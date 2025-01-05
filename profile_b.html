@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jujueee Ali's Life</title>
+    <style>
+        #entryForm {
+            display: block; 
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        #websiteContent {
+            display: none; 
+        }
+
+        .form-input {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16pt;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .form-button {
+            padding: 10px 20px;
+            font-size: 16pt;
+            background-color: #744e23;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-button:hover {
+            background-color: #8a5d36;
+        }
+    </style>
+</head>
+    
+    <body>
+	<div id="entryForm">
+        <h2>Welcome! Please enter your details</h2>
+        <form action="#websiteContent" method="POST" onsubmit="document.getElementById('entryForm').style.display='none'; document.getElementById('websiteContent').style.display='block'; return false;">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" class="form-input" required><br><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" class="form-input" required><br><br>
+            <button type="submit" class="form-button">Submit</button>
+        </form>
+    </div>
+	<div id="websiteContent">
+    <table border="0" align="center" bgcolor="#744e23" height="150" width="1" style = "boarder-collapse:collapse;">
+	
+      <tr>
+    <td colspan="6" width="1299" height="80" align="center">
+        <p><img src="gambar/light.jpg" align="center" width="1299" height="70"></p>
+    </td>
+	  </tr>
+	  
+     <tr>
+    <td class="hujan" style="text-align: center; vertical-align: middle; width: 50px; background-color: #ad7d47;"
+        onmouseover="this.style.backgroundColor='#8a5d36';" onmouseout="this.style.backgroundColor='#ad7d47';">
+        <img src="gambar/home.png" style="width: 40px; height: 40px;">
+    </td>
+
+    <td style="text-align: center; vertical-align: middle; width: 50px; background-color: #ad7d47;"
+        onmouseover="this.style.backgroundColor='#8a5d36';" onmouseout="this.style.backgroundColor='#ad7d47';">
+        <a href="aboutme.html" style="color: black; text-decoration: none; font-size: 15pt;">About Me</a>
+    </td>
+    
+    <td style="text-align: center; vertical-align: middle; width: 50px; background-color: #ad7d47;"
+        onmouseover="this.style.backgroundColor='#8a5d36';" onmouseout="this.style.backgroundColor='#ad7d47';">
+        <a href="hobby.html" style="color: black; text-decoration: none; font-size: 15pt;">Hobby</a>
+    </td>
+
+    <td style="text-align: center; vertical-align: middle; width: 50px; background-color: #ad7d47;"
+        onmouseover="this.style.backgroundColor='#8a5d36';" onmouseout="this.style.backgroundColor='#ad7d47';">
+        <a href="photo.html" style="color: black; text-decoration: none; font-size: 15pt;">Photo</a>
+    </td>
+
+    <td style="text-align: center; vertical-align: middle; width: 50px; background-color: #ad7d47;"
+        onmouseover="this.style.backgroundColor='#8a5d36';" onmouseout="this.style.backgroundColor='#ad7d47';">
+        <a href="contact.html" style="color: black; text-decoration: none; font-size: 15pt;">Contact</a>
+    </td>
+</tr>
+
+	 
+	  
+	  <tr>
+    <td colspan="6" width="1000" height="450" align="left">
+        <p style="position: relative; width: 600px; height: 155px; margin-top: -60px;">
+            <svg width="600" height="400" style="position: absolute; z-index: 0; left: -50px;">
+                <circle cx="300" cy="200" r="200" fill="#D2B48C" fill-opacity="0.4" />
+            </svg>
+            <img src="gambar/me1.png" width="400" height="350" style="position: absolute; top: 50px; left: 80px; z-index: 1;">
+        </p>
+
+        <p align="center" style="margin-top: -190px; margin-left: 180px;">
+            <span style="color: white; font-size: 65pt; font-family: 'Comic Sans MS', cursive;">
+                Hi Everyone 
+                <img 
+                    onmouseover="this.style.width='80px'; this.style.height='80px';" 
+                    onmouseout="this.style.width='52px'; this.style.height='52px';" 
+                    border="0" src="gambar/smile.gif" alt="Smiley" width="52" height="52">
+            </span>
+        </p>
+
+        <p align="center" style="margin-top: -10px; margin-left: 250px;">
+            <span style="color: white; font-size: 50pt; font-family: 'Comic Sans MS', cursive;">I am Juliza binti Ali</span>
+        </p>
+
+        <p align="center" style="margin-top: -0px; margin-right: 1px;">
+            <span style="color: white; font-size: 20pt; font-family: 'Comic Sans MS', cursive;">Let's delve to know me more!</span>
+        </p>
+
+        <p align="center">
+            <marquee behavior="scroll" direction="left" scrollamount="10">
+                <span style="font-size: 40pt; color: #8B4513; text-shadow: 4px 4px 8px #333333;">&#9829;</span>
+                <span style="font-size: 40pt; color: #696969; text-shadow: 4px 4px 8px #333333;">&#9835;</span>
+                <span style="font-size: 40pt; color: #FFFFFF; text-shadow: 4px 4px 8px #333333;">&#9829;</span>
+                <span style="font-size: 40pt; color: #8B4513; text-shadow: 4px 4px 8px #333333;">&#9733;</span>
+                <span style="font-size: 40pt; color: #696969; text-shadow: 4px 4px 8px #333333;">&#9825;</span>
+                <span style="font-size: 40pt; color: #FFFFFF; text-shadow: 4px 4px 8px #333333;">&#10084;</span>
+                <span style="font-size: 40pt; color: #8B4513; text-shadow: 4px 4px 8px #333333;">&#9733;</span>
+                <span style="font-size: 40pt; color: #696969; text-shadow: 4px 4px 8px #333333;">&#9835;</span>
+                <span style="font-size: 40pt; color: #FFFFFF; text-shadow: 4px 4px 8px #333333;">&#9829;</span>
+            </marquee>
+        </p>
+    </td>
+</tr>
+
+      <tr>
+    <td colspan="6" width="1000" height="80" bgcolor="#ad7d47" align="left" style="position: relative;">
+        <span style="color: white; font-size: 15pt; padding-left: 40px; letter-spacing: 2.5px;">
+            © Copyright by Jue Ali @ 2024
+        </span>
+        <div style="position: absolute; top: 10px; right: 20px;">
+            <a href="https://www.instagram.com/justjueeee/profilecard/?igsh=NmVhdG84emxlb2t1">
+                <img src="gambar/ig.png" width="40" height="50" 
+                     style="position: absolute; top: 0; right: 0px; z-index: 1;"
+                     onmouseover="this.style.transform='scale(1.5)';" 
+                     onmouseout="this.style.transform='scale(1)';">
+            </a>
+            <a href="https://wa.link/vmzfvm">
+                <img src="gambar/ws.png" width="40" height="50" 
+                     style="position: absolute; top: 0; right: 900; z-index: 1;"
+                     onmouseover="this.style.transform='scale(1.5)';" 
+                     onmouseout="this.style.transform='scale(1)';">
+            </a>
+            <a href="https://www.tiktok.com/@justjueeeeeee?_t=8s39HPUv45A&_r=1">
+                <img src="gambar/tiktok.jpg" width="40" height="50" 
+                     style="position: absolute; top: 0; right: 60px; z-index: 1;"
+                     onmouseover="this.style.transform='scale(1.5)';" 
+                     onmouseout="this.style.transform='scale(1)';">
+            </a>
+        </div>
+    </td>
+</tr>
+	  
+  </body>
+</html>

@@ -1,0 +1,9 @@
+td.hujan{
+	text-align: center;
+	vertical-align: middle;
+	width: 50px;
+	background-color: #ad7d47;
+    onmouseover="this.style.backgroundColor='#8a5d36';" 
+	onmouseout="this.style.backgroundColor='#ad7d47';"
+}
+    
